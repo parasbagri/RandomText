@@ -12,11 +12,11 @@ To install and run this project, you will need to have the following software in
 3. git clone
 
 ## Usage
-Clone the repository to your local machine.
-Navigate to the project directory.
-Open your web browser and navigate to 
-Enter a number between 1 and 10 in the input field.
-Click the "Generate" button to generate a random paragraph based on the input.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Open your web browser and navigate to 
+4. Enter a number between 1 and 10 in the input field.
+5. Click the "Generate" button to generate a random paragraph based on the input.
 
 
 ## Contributing
