@@ -1,0 +1,85 @@
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}  
+html body{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     background-color: skyblue;
+
+} 
+.containeer{
+     width: 65%;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     margin-top: 40px;
+} 
+.containeer .paraLimit{
+     width: 100%;
+     padding: 20px;
+     text-align: center;
+} 
+.paraLimit input{
+     width: 55px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     padding: 5px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+} 
+.paraLimit button{
+     padding: 5px 8px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     border: none;
+     outline: none; 
+     cursor: pointer;
+     font-weight:600;
+} 
+button:hover{
+     background-color: gray;
+     color:#FFF;
+
+}  
+ 
+.ParaText{
+     border: 1px solid black;
+    text-align: justify;   
+} 
+@media (max-width: 478px) {
+    .containeer .paraLimit{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 10px;
+         font-size: 18px;
+         font-weight: 700;
+
+    } 
+    .paraLimit input{
+         width: 74px;
+    } 
+    .containeer{
+         border: 1px solid black;
+         width: 100%;
+         margin-top: -10px;
+         gap: 30px;
+
+    }
+    
+}
